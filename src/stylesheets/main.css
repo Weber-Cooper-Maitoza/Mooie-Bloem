@@ -1,3 +1,19 @@
 /* Your styles go here */
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("bootstrap-icons/font/bootstrap-icons.css");
+
+#header_backround_color {
+  background-color: #E8B9AB;
+}
+
+#footer_backround_color {
+  background-color: #558B6E;
+}
+
+.md-img {
+  margin: 0 30% 0 30%;
+}
+
+.sm-img {
+  margin: 0 30% 0 30%;
+}
