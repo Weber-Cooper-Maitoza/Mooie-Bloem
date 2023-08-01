@@ -81,108 +81,102 @@
     </header>
 
     <!-- insert main -->
-    <!-- TODO: fix stuff -->
     <section class="order-form m-4">
       <div class="container pt-4">
           <div class="row">
               <div class="col-12 px-4">
-                  <h1>You can see my Order Form</h1>
-                  <span>with some explanation below</span>
+                  <h1 class="display-4 text-center text-secondary">Place an Order</h1>
+                  <p class="lead text-secondary text-center">Orders are handmade and custom crafted. Expect this to take time</p>
                   <hr class="mt-1" />
               </div>
     
               <div class="col-12">
                   <div class="row mx-4">
                       <div class="col-12">
-                          <label class="order-form-label">Name</label>
+                          <label class="order-form-label lead text-primary">Name</label>
                       </div>
                       <div class="col-sm-6">
                           <div class="form-outline">
-                              <input type="text" id="form1" class="form-control order-form-input" />
-                              <label class="form-label" for="form1">First</label>
+                              <input type="text" id="form1" class="form-control order-form-input" placeholder="First Name..."/>
                           </div>
                       </div>
                       <div class="col-sm-6 mt-2 mt-sm-0">
                           <div class="form-outline">
-                              <input type="text" id="form2" class="form-control order-form-input" />
-                              <label class="form-label" for="form2">Last</label>
+                              <input type="text" id="form2" class="form-control order-form-input" placeholder="Last Name..."/>                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row mt-3 mx-4">
+                      <div class="col-12">
+                          <label class="order-form-label lead text-primary">Email</label>
+                      </div>
+                      <div class="col-12">
+                          <div class="form-outline">
+                              <input type="email" id="form3" class="form-control order-form-input" placeholder="Enter your email..."/>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row mt-3 mx-4">
+                    <div class="col-12">
+                        <label class="order-form-label lead text-primary">Adress</label>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-outline">
+                            <input type="text" id="form5" class="form-control order-form-input" />
+                            <label class="form-label text-secondary" for="form5">Street Address</label>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <div class="form-outline">
+                            <input type="text" id="form6" class="form-control order-form-input" />
+                            <label class="form-label text-secondary" for="form6">Street Address Line 2</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mt-2 pe-sm-2">
+                        <div class="form-outline">
+                            <input type="text" id="form7" class="form-control order-form-input" />
+                            <label class="form-label text-secondary" for="form7">City</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mt-2 ps-sm-0">
+                        <div class="form-outline">
+                            <input type="text" id="form8" class="form-control order-form-input" />
+                            <label class="form-label text-secondary" for="form8">Region</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mt-2 pe-sm-2">
+                        <div class="form-outline">
+                            <input type="text" id="form9" class="form-control order-form-input" />
+                            <label class="form-label text-secondary" for="form9">Postal / Zip Code</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mt-2 ps-sm-0">
+                        <div class="form-outline">
+                            <input type="text" id="form10" class="form-control order-form-input" />
+                            <label class="form-label text-secondary" for="form10">Country</label>
+                        </div>
+                    </div>
+                  </div>
+    
+                  <div class="row mt-3 mx-4">
+                      <div class="col-12">
+                          <label class="order-form-label lead text-primary">What do you want to Order</label>
+                      </div>
+                      <div class="col-12">
+                          <div class="form-outline">
+                              <input type="text" id="form3" class="form-control order-form-input" placeholder="Please enter shirt, plant, bottom, dress, etc..."/>
                           </div>
                       </div>
                   </div>
     
                   <div class="row mt-3 mx-4">
                       <div class="col-12">
-                          <label class="order-form-label">Type of thing you want to order</label>
+                          <label class="order-form-label lead text-primary">Discription</label>
                       </div>
                       <div class="col-12">
                           <div class="form-outline">
-                              <input type="text" id="form3" class="form-control order-form-input" />
-                          </div>
-                      </div>
-                  </div>
-    
-                  <div class="row mt-3 mx-4">
-                      <div class="col-12">
-                          <label class="order-form-label">Another type of thing you want to order</label>
-                      </div>
-                      <div class="col-12">
-                          <div class="form-outline">
-                              <input type="text" id="form4" class="form-control order-form-input" />
-                          </div>
-                      </div>
-                  </div>
-    
-                  <div class="row mt-3 mx-4">
-                      <div class="col-12">
-                          <label class="order-form-label" for="date-picker-example">Date</label>
-                      </div>
-                      <div class="col-12">
-                          <div class="form-outline datepicker" data-mdb-toggle-button="false">
-                              <input
-                              type="text" class="form-control order-form-input" id="datepicker1" data-mdb-toggle="datepicker" />
-                              <label for="datepicker1" class="form-label">Select a date</label>
-                          </div>
-                      </div>
-                  </div>
-    
-                  <div class="row mt-3 mx-4">
-                      <div class="col-12">
-                          <label class="order-form-label">Adress</label>
-                      </div>
-                      <div class="col-12">
-                          <div class="form-outline">
-                              <input type="text" id="form5" class="form-control order-form-input" />
-                              <label class="form-label" for="form5">Street Address</label>
-                          </div>
-                      </div>
-                      <div class="col-12 mt-2">
-                          <div class="form-outline">
-                              <input type="text" id="form6" class="form-control order-form-input" />
-                              <label class="form-label" for="form6">Street Address Line 2</label>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 mt-2 pe-sm-2">
-                          <div class="form-outline">
-                              <input type="text" id="form7" class="form-control order-form-input" />
-                              <label class="form-label" for="form7">City</label>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 mt-2 ps-sm-0">
-                          <div class="form-outline">
-                              <input type="text" id="form8" class="form-control order-form-input" />
-                              <label class="form-label" for="form8">Region</label>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 mt-2 pe-sm-2">
-                          <div class="form-outline">
-                              <input type="text" id="form9" class="form-control order-form-input" />
-                              <label class="form-label" for="form9">Postal / Zip Code</label>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 mt-2 ps-sm-0">
-                          <div class="form-outline">
-                              <input type="text" id="form10" class="form-control order-form-input" />
-                              <label class="form-label" for="form10">Country</label>
+                              <input type="text" id="form4" class="form-control order-form-input" placeholder="Enter a discription of the custom item you want..."/>
                           </div>
                       </div>
                   </div>
@@ -191,7 +185,7 @@
                       <div class="col-12">
                           <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                              <label class="form-check-label" for="flexCheckDefault">I know what I need to know</label>
+                              <label class="form-check-label text-danger" for="flexCheckDefault">I promise I want this.</label>
                           </div>
                       </div>
                   </div>
@@ -206,48 +200,6 @@
       </div>
     </section>
     
-    
-    
-    <h1 class="display-2 text-center py-5">Guest <i class="bi bi-book-half"></i> Book</h1> 
-
-    <div style="margin: 0 10% 0 10%;">
-      <form id="nameForm">
-        <div class="mb-3">
-          <label for="firstName" class="form-label fw-bold">Guest's First Name</label>
-          <input type="text" class="form-control" id="firstName" placeholder="First Name Goes Here">
-        </div>
-        <div class="mb-3">
-          <label for="lastName" class="form-label fw-bold">Last Name Goes Here</label>
-          <input type="text" class="form-control" id="lastName" placeholder="Last Name Goes Here">
-        </div>
-        <button type="submit" class="btn btn-primary" id="guestBTN">Add a Guest</button>
-        <button type="button" class="btn btn-secondary" id="resetBTN">Reset</button>
-      </form>
-
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid mt-5">
-          <h1 class="display-5">Registered Guest</h1> 
-          <form class="d-flex" role="search">
-            <button type="button" class="btn btn-danger" id="clearBTN">Clear All</button>
-          </form>
-        </div>
-      </nav>
-
-      <table class="table table-striped table-hover" >
-        <thead>
-          <tr>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-          </tr>
-        </thead>
-        <tbody id="nameTable">
-          <!-- add javascript  -->
-        </tbody>
-      </table>
-      
-    </div>
-
-
     <footer id="footer_backround_color">
       <!-- Large and Medium Formats-->
       <div class="container-fluid d-none d-sm-block">
@@ -257,25 +209,24 @@
               <div class="row">
                 <div class="col-3">
                   <p class="lead" style="color: #E8B9AB; padding: 0 16px 0 16px; margin: 0;">Info</p>
-                  <a href="#" class="nav-link text-white fs-6">Contact</a>
-                  <a href="#" class="nav-link text-white fs-6">Privacy</a>
-                  <a href="#" class="nav-link text-white fs-6">Sizing</a>
-                  <a href="#" class="nav-link text-white fs-6">Care</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Contact</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Privacy</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Sizing</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Care</a>
                 </div>
                 <div class="col-3 text-white">
                   <p class="lead" style="color: #E8B9AB; padding: 0 16px 0 16px; margin: 0;">Orders</p>
-                  <a href="#" class="nav-link text-white fs-6">Shipping</a>
-                  <a href="#" class="nav-link text-white fs-6">Returns</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Shipping</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Returns</a>
                 </div>
                 <div class="col-3 text-white">
                   <p class="lead" style="color: #E8B9AB; padding: 0 16px 0 16px; margin: 0;">Locations</p>
-                  <a href="#" class="nav-link text-white fs-6">Stores</a>
-                  <a href="#" class="nav-link text-white fs-6">Stocklist</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Stores</a>
+                  <a href="under-construction.html" class="nav-link text-white fs-6">Stocklist</a>
                 </div>
                 <div class="col-3 text-white">
                   <p class="lead" style="color: #E8B9AB; padding: 0 16px 0 16px; margin: 0;">Social</p>
                   <a href="https://instagram.com/mooie.bloem.crochet?igshid=OGQ5ZDc2ODk2ZA==" class="nav-link text-white fs-6">Instagram</a>
-                  <!-- <a href="#" class="nav-link text-white fs-6">Facebook</a> -->
                 </div>
               </div>
             </div>
